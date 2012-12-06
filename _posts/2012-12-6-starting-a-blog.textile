@@ -6,9 +6,10 @@ h3. Starting a blog
 
 Hi everyone.
 
-{% highlight c# %}
-public void Test()
-{
-    Console.WriteLine("Hello");
-}
+Haha
+
+{% highlight coffeescript %}
+Test = (params) ->
+    tada = "hey hey hey"
+    return
 {% endhighlight %}
