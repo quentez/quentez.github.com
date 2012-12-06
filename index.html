@@ -1,0 +1,18 @@
+---
+layout:	default
+title: Home
+---
+
+{% for post in site.posts %}
+	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+	{{ post.content | split:'<!--break-->' | first }}
+
+	{% if post.content contains '<!--break-->' %}
+		<a href="{{ post.url }}">Read more</a>
+	{% endif %}
+
+	{% if forloop.rindex0 > 0 %}
+		<hr>
+	{% endif %}
+{% endfor %}

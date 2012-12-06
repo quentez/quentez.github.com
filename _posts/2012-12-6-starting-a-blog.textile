@@ -1,16 +1,21 @@
 ---
-layout: default
+layout: post
 title:  Starting a blog 
+date:	2012-12-6 16:00:00
 ---
 
-h3. Starting a blog
+Starting a blog has always felt like something I should do, yet I never found the patience and motivation to do it. There was always something stopping me, be it the choice of blogging plateform, the language to use _(French or English)_, or even the lack of ideas for the first pieces of content. But at the same time, I've time and time again found myself in the situation where I have something that I'd like to share, without having the right medium of expression to share it.
 
-Hi everyone.
+But here I am nevertheless, writing my first article. I can't wait forever for the perfect moment to do it, and this one seems as good as any. I'm making to myself the personal commitment of writing at least one blog post per month for the next year, and then we'll see!
 
-Haha
+<!--break-->
 
-{% highlight coffeescript %}
-Test = (params) ->
-    tada = "hey hey hey"
-    return
-{% endhighlight %}
+h3. What you'll find here
+
+One thing that always seemed to prevent me from starting to write online was the wide range of topics that I feel compelled to write about. I might have a few good ideas for a developer oriented blog, with tutorials and code samples, but what if all of a suden I want to write a video-game review, or write about some interesting development in the tech industry? As a result, this blog will be a mashup of all different kinds of content, don't expect any new post to be anything like the previous one. Part of my hope is to provide a good and unexpected read for people who might have some interests in common with me.
+
+h3. Choosing a platform
+
+As I previously mentioned, choosing the right platform was something that stopped me short of starting a blog in a few occasions, what that? Well, on one side you have the commercial platforms, like "Tumblr":http://www.tumblr.com/ or "WordPress.com":http://www.wordpress.com/, but there's always the problem of data ownership and migration, and as a developer I wanted to have the option to mingle with every detail of the site's look. Then there's the blog platforms that you can selfhost, like "WordPress":http://www.wordpress.org/ or "DotClear":http://dotclear.org/. In my experience, I've found those to be way too complicated for what I wanted to do. The last time I tried setting up a WordPress install to host this very blog, I ended up trying to have an actual WordPressMU-based blogging service working, with custom plugins and themes. I successfully hosted a few friend's blogs for a few years, but mine never became reality.
+
+Fast-forward to this week, when I finally got a chance to play with "Jekyll":https://github.com/mojombo/jekyll. This is a lightweight blog engine that generates static HTML files from layouts and Markdown/Textile content. And I have to say, I pretty much fell in love with it. The result is that I can write my posts in an easy-to-read format, customize about everything, and host the whole thing on "Github Pages":http://pages.github.com/ for free with a custom domain.
