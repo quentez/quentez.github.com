@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Starting a blog
+date:   2012-12-6 16:00:00
 ---
 
 Starting a blog has always felt like something I should do, yet I never found the patience and motivation to do it. There was always something stopping me, be it the choice of blogging plateform, the language to use _(French or English)_, or even the lack of ideas for the first pieces of content. But at the same time, I've time and time again found myself in the situation where I have something that I'd like to share, without having the right medium of expression to share it.
