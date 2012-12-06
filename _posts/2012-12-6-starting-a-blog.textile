@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+h3. Starting a blog
+
+Hi everyone.
+
+{% highlight c# %}
+public void Test()
+{
+    Console.WriteLine("Hello");
+}
+{% endhighlight %}
